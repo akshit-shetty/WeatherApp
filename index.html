@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <ul>
+                <li class="brand"><img src="Images/weather-logo.png"
+                        alt="Weather App">Weather <span>App</span></li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        </header>
+        <div class="intro">
+            <h1>Weather<span>App</span></h1>
+        </div>
+        <div class="box">
+            <div class="search">
+                <input type="text" placeholder="Enter city name"
+                    spellcheck="false">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+                <div class="sub-weather">
+                <div class="col">
+                   <img src="Images/rain.png" class="weather-icon">
+                    <p class="weather-status">Rainy</p>
+                </div>
+                <div class="col">
+                    <div class="col-head">
+                    <h2>Temperature</h2>
+                    </div>
+                    <p class="temp">22°c</p>
+                </div>
+                <div class="col">
+                    <div class="col-head">
+                    <h2>City</h2>
+                    </div>
+                    <p class="city">Thane</p>
+                </div>
+                <div class="col">
+                    <div class="col-head">
+                    <h2>Humidity</h2>
+                    </div>
+                    <div class="col-img">
+                        <img src="Images/humidity.png" class="weather-icon2">
+                        <p class="humidity">50%</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-head">
+                    <h2>Wind speed</h2>
+                    </div>
+                    <div class="col-img">
+                        <img src="Images/wind.png" class="weather-icon2">
+                        <p class="wind">15 km/hr</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/5059b7cf57.js"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
